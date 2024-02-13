@@ -1,11 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Link } from 'react-router-dom';
-import './Contact.css'
 import { CiLocationOn } from "react-icons/ci";
 import { CiPhone } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 
+import './Contact.css'
 
 export const Contact = () => {
     const form = useRef();
