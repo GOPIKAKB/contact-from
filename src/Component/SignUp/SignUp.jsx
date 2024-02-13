@@ -25,7 +25,7 @@ function SignUp() {
     return (
         <div className='login-container'>
             <div className='login'>
-                <h1>sign-up</h1>
+                <h1>Sign Up</h1>
                 <form className='login-form'>
                     <label>Email:</label>
                     <input
