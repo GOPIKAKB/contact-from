@@ -1,53 +1,64 @@
-/* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Profile container styles */
-  .profile-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Header styles */
-  .profile-container h2 {
-    margin: 0;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-  
-  /* Logout button styles */
-  .logout-button {
-    background-color: #4caf50; /* Set your button color */
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  /* User details styles */
+.profile-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-container h2 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logout-button {
+  background-color: #fff;
+  color: #4caf50;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  width:100px;
+
+}
+
+.user-details {
+  display: grid;
+  gap: 50px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: #4caf50;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.user-info-container {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+
+.user-info {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
   .user-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+  width: 80%;
+
   }
-  
-  .user-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  
-  .user-info {
-    margin: 5px 0;
-  }
-  
+}
