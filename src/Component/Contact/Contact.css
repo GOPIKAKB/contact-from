@@ -33,12 +33,10 @@
   color: white;
 }
 
-/* Header styles */
 header h1 {
   margin: 0;
 }
 
-/* Form styles */
 .contact-form {
   display: grid;
   gap: 15px;
@@ -52,7 +50,6 @@ label {
 
 input,
 textarea {
-  /* width: 100%; */
   padding: 10px;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -82,7 +79,6 @@ input[type="submit"]:hover {
   gap: 20px
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
   .contact-container {
     display: block;
